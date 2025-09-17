@@ -19,12 +19,12 @@ It recommends career paths based on user interests in **Tech, Arts, or Commerce*
 ### Streamlit App – Input 1
 User enters **Tech** as their interest:
 
-![Streamlit Input 1](screenshots/input1.png)
+![Streamlit Input 1](screenshots:input1.png)
 
 ### Streamlit App – Input 2
 User enters **"who are you?"** as their interest:
 
-![Streamlit Input 2](screenshots/input2.png)
+![Streamlit Input 2](screenshots:input2.png)
 
 
 ---
