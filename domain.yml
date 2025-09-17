@@ -1,0 +1,32 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - tech
+  - arts
+  - commerce
+
+responses:
+  utter_greet:
+    - text: "Hi! I’m your AI Virtual Career Counsellor. Which field are you interested in – Tech, Arts, or Commerce?"
+
+  utter_goodbye:
+    - text: "Goodbye! All the best for your future career."
+
+  utter_iamabot:
+    - text: "I am your AI-powered career guidance bot 🤖."
+
+  utter_tech_career:
+    - text: "Based on your interest in Tech, you might enjoy careers such as Software Developer, Data Scientist, AI Engineer, or Cybersecurity Specialist."
+
+  utter_arts_career:
+    - text: "Since you are interested in Arts, careers like Graphic Designer, Content Writer, Filmmaker, or Visual Artist could be a great fit for you."
+
+  utter_commerce_career:
+    - text: "With your interest in Commerce, you could explore becoming a Chartered Accountant, Financial Analyst, Entrepreneur, or Marketing Manager."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
